@@ -1,0 +1,2 @@
+debian/bin/fxcoind usr/bin
+src/fxcoind usr/lib/fxcoin

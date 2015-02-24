@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FXCoin
+Comment=FXCoin P2P Cryptocurrency
+Comment[fr]=FXCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=FXCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/fxcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/fxcoin;
+Categories=Office;
