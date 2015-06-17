@@ -61,7 +61,7 @@ void MineGenesis(CBlock genesis){
         printf("New best: %s\n", newhash.GetHex().c_str());
     }
     }
-    printf("Found Genesis, Nonce: %ld, Hash: %s\n", genesis.nNonce, genesis.GetHash().GetHex().c_str());
+    //printf("Found Genesis, Nonce: %ld, Hash: %s\n", genesis.nNonce, genesis.GetHash().GetHex().c_str());
     exit(0);
 }
 
@@ -114,7 +114,21 @@ public:
 
 
 
-        vSeeds.push_back(CDNSSeedData("jamie.guru", "fxcdns.jamie.guru"));
+        vSeeds.push_back(CDNSSeedData("5.196.166.59", "5.196.166.59"));
+        vSeeds.push_back(CDNSSeedData("58.231.182.199", "58.231.182.199"));
+        vSeeds.push_back(CDNSSeedData("59.23.252.7", "59.23.252.7"));
+        vSeeds.push_back(CDNSSeedData("59.23.252.65", "59.23.252.65"));
+        vSeeds.push_back(CDNSSeedData("59.25.242.157", "59.25.242.157"));
+        vSeeds.push_back(CDNSSeedData("112.155.61.20", "112.155.61.20"));
+        vSeeds.push_back(CDNSSeedData("59.25.242.182", "59.25.242.182"));
+        vSeeds.push_back(CDNSSeedData("108.61.174.246", "108.61.174.246"));
+        vSeeds.push_back(CDNSSeedData("192.168.1.94", "192.168.1.94"));
+        vSeeds.push_back(CDNSSeedData("175.126.232.205", "175.126.232.205"));
+        vSeeds.push_back(CDNSSeedData("211.110.139.230", "211.110.139.230"));
+        vSeeds.push_back(CDNSSeedData("128.199.110.246", "128.199.110.246"));
+        vSeeds.push_back(CDNSSeedData("107.191.51.82", "107.191.51.82"));
+        vSeeds.push_back(CDNSSeedData("58.231.182.199", "58.231.182.199"));
+
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(35);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(95);
